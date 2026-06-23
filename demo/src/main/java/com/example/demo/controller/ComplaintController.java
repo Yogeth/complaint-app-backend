@@ -6,7 +6,7 @@ import com.example.demo.service.ComplaintService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 @RestController
-@CrossOrigin(origins="*")
+@CrossOrigin(origins="http://localhost:5173/")
 public class ComplaintController{
   
   @Autowired
@@ -25,5 +25,10 @@ public class ComplaintController{
   @GetMapping("viewComplaints")
   public List<Complaint> getRegData(){
     return comp.getRegData();
+  }
+
+  @GetMapping("isConnected")
+  public Boolean connect(){
+    return true;
   }
 }
