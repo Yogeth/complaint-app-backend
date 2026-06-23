@@ -105,7 +105,7 @@ src
 The frontend application is deployed separately.
 
 Frontend:
-[https://your-frontend-url.vercel.app](https://complaint-app-lovat.vercel.app/]
+https://your-frontend-url.vercel.app](https://complaint-app-lovat.vercel.app/
 
 
 ## Future Improvements
